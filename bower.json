@@ -1,5 +1,5 @@
 {
-  "name": "angular-chartist.js",
+  "name": "index-angular-chartist.js",
   "version": "3.1.0",
   "authors": [
     "will@intandem.io"
@@ -27,12 +27,10 @@
     "src"
   ],
   "dependencies": {
-    "angular": "^1.3.8",
+    "angular": "^1.2.26",
     "chartist": "^0.7.3"
   },
   "devDependencies": {
-    "bootstrap": "~3.2.0",
-    "bootswatch": "~3.2.0",
     "angular-mocks": "~1.3.6"
   }
 }
