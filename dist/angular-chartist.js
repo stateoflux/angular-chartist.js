@@ -37,7 +37,7 @@ angularChartist.directive('chartist', [function() {
       chartOptions: '=chartistChartOptions',
       responsiveOptions: '=chartistResponsiveOptions'
     },
-    controller: 'AngularChartistController',
+    controller: AngularChartistCtrl,
     link: function(scope, element, attrs, Ctrl) {
       var elm = element[0];
       var chart = Ctrl.renderChart(elm);
